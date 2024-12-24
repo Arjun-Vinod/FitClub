@@ -41,8 +41,21 @@ const Hero = () => {
                 <span>fitness programs</span>
             </div>
         </div>
+
+
+        {/* Hero buttons */}
+        <div className="hero-buttons">
+          <button className="btn">Get Started</button>
+          <button className="btn">Learn More</button>
+        </div>
       </div>
       <div className="right-h">Right side</div>
+      <button className='btn'>Join Now</button>
+      <div className="heart-rate">
+        <img src={Heart} alt=''/>
+        <span>Heart Rate</span>
+        <span>116 bpm</span>
+      </div>
     </div>
   )
 }
